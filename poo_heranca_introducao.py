@@ -1,8 +1,8 @@
 # Heranca - Reutilização e manutenção
 # Classe: Cao Passaro
-class Animal:# Super classe, classe pai
+class Animal:  # Super classe, classe pai
     def __init__(self):
-        self.com = ''
+        self.cor = ''
         self.tamanho = ''
         self.peso = ''
 
@@ -13,13 +13,13 @@ class Animal:# Super classe, classe pai
         print('Dormir')
 
 
-class Cao(Animal):# Subclasse, classe filha
+class Cao(Animal):  # Subclasse, classe filha
 
     def latir(self):
         print('Latir')
 
 
-class Passaro(Animal):# Subclasse, classe filha
+class Passaro(Animal):  # Subclasse, classe filha
 
     def voar(self):
         print('Voar')
